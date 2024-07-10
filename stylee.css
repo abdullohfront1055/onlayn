@@ -1,0 +1,43 @@
+/* stylee.css */
+
+/* Стиль для формы ввода */
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Стиль для текстового поля */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px; /* Ширина поля ввода */
+}
+
+/* Стиль для кнопки */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: 1px solid #007bff; /* Граница кнопки */
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Стиль для контейнера продуктов */
+.products {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Дополнительные стили могут быть добавлены по необходимости */
+
+
+img{
+    width: 100%;
+}
